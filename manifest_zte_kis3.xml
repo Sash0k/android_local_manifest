@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- ZTE Kis 3 -->
+    <project path="device/zte/kis3" name="Sash0k/android_device_zte_kis3" revision="cm-14.1" />
+    <project path="kernel/zte/msm8610" name="HacKurx/android_kernel-unofficial-grsec_zte_msm8610" revision="cm-14.1" />
+    <project path="vendor/zte" name="HacKurx/proprietary_vendor_zte" revision="cm-14.1" />
+
+    <!-- LineageOS dependencies -->
+    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-14.1" />
+    <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="cm-14.1" />
+
+    <!-- Remove unused stuff -->
+    <remove-project name="LineageOS/android_packages_apps_Updater" />
+    <remove-project name="LineageOS/android_packages_apps_LockClock" />
+    <remove-project name="LineageOS/android_packages_apps_WallpaperPicker" />
+    <remove-project name="LineageOS/android_packages_providers_WeatherProvider" />
+    <remove-project name="LineageOS/android_packages_screensavers_Basic" />
+    <remove-project name="LineageOS/android_packages_screensavers_PhotoTable" />
+    <remove-project name="LineageOS/android_packages_screensavers_WebView" />
+    <remove-project name="LineageOS/android_packages_services_WeatherService" />        
+    <remove-project name="LineageOS/android_packages_wallpapers_LivePicker" />    
+</manifest>
